@@ -1,5 +1,8 @@
 # Installing VScode
 1. Click this [link](https://code.visualstudio.com/) to install VScode
+
+![hi](VSCodeDownloadPage.png)
+
 2. When you launch the app, it should look like the following:
 * Remotely Connecting
 * Trying Some Commands

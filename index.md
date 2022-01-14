@@ -9,7 +9,7 @@
 * To remotely connect to a server, first open a new terminal from VScode
 ![RemotelyConnecting1](VSCodeOpenTerminal.png)
 
-* In the terminal, type ``ssh`` and your ![UCSD address](https://sdacs.ucsd.edu/~icc/index.php) for the CSE15L class 
+* In the terminal, type ``ssh`` and your [UCSD address](https://sdacs.ucsd.edu/~icc/index.php) for the CSE15L class 
   * (enter password and enter yes if prompted)
 
 * Trying Some Commands

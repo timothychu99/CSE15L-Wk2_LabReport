@@ -20,5 +20,9 @@
  * ``cat`` followed by \<name of file\> shows the contents of the file 📂 
  
 # Moving Files with scp
-* Setting an SSH Key
+ ![scp](scp.png)
+ * scp \<name of file\> \<name of ssh user\> copies the file to the user's home directory
+ * It is shown when logging back with ``dir`` to ssh that the file is in the home directory of user
+
+# Setting an SSH Key
 * Optimizing Remote Running

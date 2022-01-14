@@ -15,6 +15,10 @@
   * It should greet you with a Hello message signaling you that you are logged into the server.
  
 # Trying Some Commands
-* Moving Files with scp
+ ![Commands](CommandLineCommands.png)
+ * dir shows the directory of the given path, in the example, the path is ~
+ * cat <name of file> shows the contents of the file 📂 
+ 
+# Moving Files with scp
 * Setting an SSH Key
 * Optimizing Remote Running

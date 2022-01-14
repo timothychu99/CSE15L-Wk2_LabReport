@@ -11,8 +11,10 @@
 
 * In the terminal, type ``ssh`` and your [UCSD address](https://sdacs.ucsd.edu/~icc/index.php) for the CSE15L class 
   * (enter password and enter yes if prompted)
-
-* Trying Some Commands
+![RemotelyConnecting2](TerminalSsh.png)
+  * It should greet you with a Hello message signaling you that you are logged into the server.
+ 
+# Trying Some Commands
 * Moving Files with scp
 * Setting an SSH Key
 * Optimizing Remote Running

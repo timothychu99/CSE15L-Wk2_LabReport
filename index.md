@@ -1,3 +1,4 @@
+## By: Timothy Chu
 # Installing VScode
 * Click this [link](https://code.visualstudio.com/) to install VScode
 ![VSCode1](VSCodeDownloadPage.png)
@@ -21,14 +22,17 @@
  
 # Moving Files with scp
  ![scp](scp.png)
- * scp \<name of file\> \<name of ssh user\> copies the file to the user's home directory
+ * ``scp \<name of file\> \<name of ssh user\>`` copies the file to the user's home directory
  * It is shown when logging back with ``ssh`` and entering ``dir`` that the file is in the home directory of user
 
 # Setting an SSH Key
-* not logged into ''ssh'', type in ''ssh-keygen'' to generate a key for logging in without a password
+* Not logged into ``ssh``, type in ``ssh-keygen`` to generate a key for logging in without a password
 ![key-gen](key-gen.png)
   * save the key to the path in (\<path\>)
   * enter a blank passphrase
-* copy the key by doing ''mkdir .ssh'' in the ''ssh'', logout and enter ''scp \<key-gen path\> \<server name\>:~.ssh/authorized_keys
+* copy the key by doing ``mkdir .ssh`` in the ``ssh``, logout and enter ``scp \<key-gen path\> \<server name\>:~.ssh/authorized_keys``
 ![copykey](copykey.png)
-* Optimizing Remote Running
+
+# Optimizing Remote Running
+* after the ``ssh \<name of ssh user\>`` adding commands in quotes will run in the user's server at start
+![shortcuts](shortcuts.png)

@@ -29,4 +29,6 @@
 ![key-gen](key-gen.png)
   * save the key to the path in (\<path\>)
   * enter a blank passphrase
+* copy the key by doing ''mkdir .ssh'' in the ''ssh'', logout and enter ''scp \<key-gen path\> \<server name\>:~.ssh/authorized_keys
+![copykey](copykey.png)
 * Optimizing Remote Running

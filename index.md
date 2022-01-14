@@ -1,6 +1,5 @@
 * Installing VScode
-** Click this [link](https://code.visualstudio.com/) to install VScode
-
+1. Click this [link](https://code.visualstudio.com/) to install VScode
 * Remotely Connecting
 * Trying Some Commands
 * Moving Files with scp

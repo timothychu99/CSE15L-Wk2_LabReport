@@ -25,7 +25,8 @@
  * It is shown when logging back with ``ssh`` and entering ``dir`` that the file is in the home directory of user
 
 # Setting an SSH Key
-* not logged into ''ssh'', type in ''key-gen'' to generate a key for logging in without a password
+* not logged into ''ssh'', type in ''ssh-keygen'' to generate a key for logging in without a password
+![key-gen](key-gen.png)
   * save the key to the path in (\<path\>)
   * enter a blank passphrase
 * Optimizing Remote Running

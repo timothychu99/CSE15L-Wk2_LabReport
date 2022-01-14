@@ -16,8 +16,8 @@
  
 # Trying Some Commands
  ![Commands](CommandLineCommands.png)
- * dir shows the directory of the given path, in the example, the path is ~
- * cat <name of file> shows the contents of the file 📂 
+ * ``dir`` shows the directory of the given path, in the example, the path is ~
+ * ``cat`` <name of file> shows the contents of the file 📂 
  
 # Moving Files with scp
 * Setting an SSH Key
